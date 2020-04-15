@@ -19,6 +19,7 @@ public class AssignmentOne {
         }
         ArrayList<Point> points = shape.getPoints();
         System.out.println("Distance between first and last points: " + points.get(0).distance(points.get(points.size()-1)) + " cm.");
+        System.out.println("Salamaleykum Kazakhstan!");
         shape.calculatePerimeter();
         System.out.println("Longest side of shape is " + shape.getLongestSide() + " cm.");
         System.out.println("Average length of all sides of shape is " + shape.getAverageLength() + " cm.");
